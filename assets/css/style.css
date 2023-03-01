@@ -145,6 +145,22 @@
     filter: drop-shadow(0px 4px 20px rgba(5, 2, 2, 0.25));
 }
 
+.pre_loder {
+    background-color: aqua;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: 2s ease-in-out;
+
+}
+
+.top_100 {
+    top: -100% !important;
+}
+
 @media (max-width:768px) {
     .d_grid {
         display: grid;

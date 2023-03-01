@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Design Dump </title>
+        <title>Design Dump nj </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <!-- css link -->
@@ -13,8 +13,19 @@
         <link rel="stylesheet" href="/assets/css/root.css">
     </head>
 
-    <body>
+    <body class="overflow-hidden">
+        <div class="pre_loder">
+            <div class="d-flex align-items-center justify-content-center min-vh-100">
+                <h1>Please wait....</h1>
+            </div>
+        </div>
+
+
         <header>
+
+
+
+
             <nav class="py-5">
                 <div class="container">
                     <div class="d-flex align-items-center justify-content-between"><a class="ff fw-bold fs_sm clr_black"
@@ -162,6 +173,15 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"></script>
+
+
+        <!-- pre_loder -->
+        <script>
+            setTimeout(() => {
+                document.querySelector(".pre_loder").classList.add("top_100")
+                document.body.classList.remove("overflow-hidden")
+            }, 10000);
+        </script>
     </body>
 
 </html>
