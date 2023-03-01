@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,700&display=swap');
+
+.ff {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+    --fs-xsm: 20px;
+    --fs-sm: 48px;
+    --fs-md: 96px;
+    ---clr-black: #3A3A3A;
+    --clr-orange: #F1875E;
+    --clr-blue: #007FEF;
+}
+
+.clr_orange {
+    color: var(--clr-orange);
+}
+
+.clr_blue {
+    color: var(--clr-blue);
+}
+
+.clr_black {
+    color: var(---clr-black);
+}
+
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-xsm: 16px;
+        --fs-sm: 23px;
+        --fs-md: 30px;
+        ---clr-black: #3A3A3A;
+        --clr-orange: #F1875E;
+        --clr-blue: #007FEF;
+    }
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-xsm: 18px;
+        --fs-sm: 28px;
+        --fs-md: 50px;
+        ---clr-black: #3A3A3A;
+        --clr-orange: #F1875E;
+        --clr-blue: #007FEF;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-xsm: 20px;
+        --fs-sm: 35px;
+        --fs-md: 60px;
+        ---clr-black: #3A3A3A;
+        --clr-orange: #F1875E;
+        --clr-blue: #007FEF;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-xsm: 20px;
+        --fs-sm: 48px;
+        --fs-md: 96px;
+        ---clr-black: #3A3A3A;
+        --clr-orange: #F1875E;
+        --clr-blue: #007FEF;
+    }
+}
